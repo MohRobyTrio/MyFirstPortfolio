@@ -81,7 +81,7 @@ section {
 
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -136,7 +136,7 @@ span {
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 0 1.5rem 3rem 0;
     transition: .5s ease;
 }
 
@@ -448,6 +448,10 @@ span {
 
     .home {
         flex-direction: column;
+    }
+
+    .home-content {
+        margin-right: auto;
     }
 
     .home-content h3 {
