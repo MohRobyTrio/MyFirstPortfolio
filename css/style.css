@@ -146,6 +146,138 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
+.wa {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0 1.5rem 3rem 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.wa:hover::before {
+    content: "Whatsapp";
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0.9;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fb {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0 1.5rem 3rem 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.fb:hover::before {
+    content: "Facebook";
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0.9;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tele {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0 1.5rem 3rem 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.tele:hover::before {
+    content: "Telegram";
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0.9;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.ig {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0 1.5rem 3rem 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.ig:hover::before {
+    content: "Instagram";
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0.9;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
