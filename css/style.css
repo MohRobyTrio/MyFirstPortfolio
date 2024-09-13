@@ -380,6 +380,9 @@ span {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
+    margin: 15rem auto;
+    justify-content: center;
+    
 }
 
 .portfolio-container .portfolio-box {
@@ -618,6 +621,7 @@ span {
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 0%;
     }
 }
 
